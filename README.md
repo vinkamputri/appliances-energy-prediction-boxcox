@@ -45,7 +45,6 @@ Evaluasi model dilakukan secara independen pada **Testing Set Temporal (25% data
 📁 Project Upload/
 ├── 📄 README.md                                            # Dokumentasi utama proyek
 ├── 📄 Kodingan R.R                                         # Skrip komputasi R lengkap (Master Checklist A-W)
-├── 📄 app_boxcox.R                                         # Dashboard R Shiny interaktif (Edisi Slider Input)
 ├── 📄 app_input_manual.R                                   # Dashboard R Shiny interaktif (Edisi Manual Numeric Input)
 ├── 📄 dashboard_boxcox_data.rds                            # Data pra-hitung ringan (738 KB) untuk dashboard
 ├── 📄 deploy_shinyapps.R                                   # Skrip otomatisasi deploy ke ShinyApps.io
@@ -71,9 +70,7 @@ Buka R / RStudio, arahkan ke direktori proyek, lalu jalankan:
 # Opsi 1: Menjalankan Dashboard Versi Input Manual (Rekomendasi)
 shiny::runApp("app_input_manual.R")
 
-# Opsi 2: Menjalankan Dashboard Versi Slider
-shiny::runApp("app_boxcox.R")
-```
+
 
 ### C. Deploy ke ShinyApps.io
 Jalankan skrip `deploy_shinyapps.R` atau eksekusi perintah berikut di konsol R:

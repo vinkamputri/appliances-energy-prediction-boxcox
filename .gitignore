@@ -1,0 +1,17 @@
+# R History & Environment files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Credentials & Deploy tokens
+rsconnect/
+
+# Temporary / Scratch files
+~$*
+*.tmp
+*.log
+scratch/
+scratch_figures/
+.DS_Store
+Thumbs.db
